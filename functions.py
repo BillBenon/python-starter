@@ -78,3 +78,37 @@ def end_other(a, b):
 
 
 print(end_other('bill', 'ill'))
+
+
+def doubleChar(mystring):
+    result = ''
+    for char in mystring:
+        result += char * 2
+    return result
+
+
+print(doubleChar("bill"))
+
+
+def fix_teen(n):
+    if n in [13, 14, 17, 18, 19]:
+        return 0
+    return n
+
+
+def no_teen_sum(a, b, c):
+    return fix_teen(a) + fix_teen(b) + fix_teen(c)
+
+
+print(no_teen_sum(10, 14, 18))
+
+
+def count_evens(nums):
+    count = 0
+    for element in nums:
+        if element % 2 == 0:
+            count += 1
+    return count
+
+
+print(count_evens([1, 2, 3, 4, 5, 6, 7, 8]))
