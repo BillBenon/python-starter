@@ -45,3 +45,36 @@ result = tweet.split('#')[1]
 print(result)
 
 print('x' in [1, 2, 3, 'x'])
+
+
+# Some exercises to sharpen the brain
+def arrayCheck(nums):
+    for i in range(len(nums) - 2):
+        if nums[i] == 1 and nums[i + 1] == 2 and nums[i + 2] == 3:
+            return True
+    return False
+
+
+print(arrayCheck([1, 2, 3, 4, 5, 6]))
+
+
+def stringBits(mystring):
+    result = ""
+    for i in range(len(mystring)):
+        if i % 2 == 0:
+            result = result + mystring[i]
+    return result
+
+
+print(stringBits("hello"))
+
+
+def end_other(a, b):
+    a = a.lower()
+    b = b.lower()
+
+    # return (b.endswith(a) or a.endswith(b))
+    return a[-(len(b)):] == b or a == b[-len(a):]
+
+
+print(end_other('bill', 'ill'))
