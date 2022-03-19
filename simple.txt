@@ -1,0 +1,1 @@
+sample textTest write to simple.txt
