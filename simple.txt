@@ -1,1 +1,2 @@
-sample textTest write to simple.txt
+sample text
+Test write to simple.txt
