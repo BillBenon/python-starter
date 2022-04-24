@@ -1,4 +1,4 @@
-# python-lecturers
-Python lecturers from Udemy(PIERIAN DATA)
+# python starter
+Python starter containing all the basics to become an expert in python
 
-This is the python from novice to advanced course from PIERIAN DATA on udemy
+This repository contains basic stuffs that will help you understand step by step python as well as tricky concepts in python
